@@ -1,9 +1,7 @@
 import os, subprocess
 
 #run hello.py as subprocess in background
-
 subprocess.Popen(['python', 'hello.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
 
 #threading -> ThreadPoolExecutor
 
